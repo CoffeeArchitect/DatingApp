@@ -7,11 +7,15 @@ global using Microsoft.EntityFrameworkCore;
 global using System.Security.Cryptography;
 global using Microsoft.AspNetCore.Mvc;
 global using System.Security.Claims;
+global using System.Text.Json;
 global using API.Extensions;
+global using API.Middleware;
 global using API.Interfaces;
 global using API.Services;
 global using API.Entities;
 global using System.Text;
+global using API.Errors;
+global using System.Net;
 global using API.Data;
 global using API.DTOs;
 
