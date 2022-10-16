@@ -1,7 +1,9 @@
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using System.ComponentModel.DataAnnotations.Schema;
 global using System.ComponentModel.DataAnnotations;
 global using Microsoft.AspNetCore.Authorization;
 global using System.IdentityModel.Tokens.Jwt;
+global using AutoMapper.QueryableExtensions;
 global using Microsoft.IdentityModel.Tokens;
 global using Microsoft.EntityFrameworkCore;
 global using System.Security.Cryptography;
@@ -14,8 +16,9 @@ global using API.Interfaces;
 global using API.Services;
 global using API.Entities;
 global using System.Text;
+global using API.Helpers;
+global using AutoMapper;
 global using API.Errors;
 global using System.Net;
 global using API.Data;
 global using API.DTOs;
-

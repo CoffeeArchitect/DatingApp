@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1aYqSn5V+T5V2cPKXkbeP6Hp4oH9N/rBKRxUiKxezGv7D2fwip4Z09euR/H3zCLteZMZaaR/lx2U2Mf2K2OLnw==",
+  "dgSpecHash": "ieuPxA4VGfcSUYZXWO8nnO9s+Q8gfYOIPxOMn+XancQZI3+5xTjg+8we94cNJVNnE3ruEKzv0jdrmnFHtH6s1w==",
   "success": true,
   "projectFilePath": "/Users/sergejkorolev/Documents/ASP_Angular/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/sergejkorolev/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/sergejkorolev/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.9/microsoft.aspnetcore.authentication.jwtbearer.6.0.9.nupkg.sha512",
-    "/Users/sergejkorolev/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/sergejkorolev/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.0/microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",

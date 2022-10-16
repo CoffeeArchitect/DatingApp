@@ -3,6 +3,7 @@ using System;
 using API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20221015155845_ExtendedUserEntity")]
+    partial class ExtendedUserEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,10 +46,6 @@ namespace API.Data.Migrations
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Gender")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("Interests")
                         .IsRequired()
                         .HasColumnType("text");
@@ -56,7 +54,7 @@ namespace API.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("KnownAs")
+                    b.Property<string>("KnoswAs")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -81,7 +79,7 @@ namespace API.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("API.Entities.Photo", b =>
@@ -110,7 +108,7 @@ namespace API.Data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Photos", (string)null);
+                    b.ToTable("Photos");
                 });
 
             modelBuilder.Entity("API.Entities.Photo", b =>
