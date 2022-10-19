@@ -43,3 +43,5 @@
 /Users/sergejkorolev/Documents/ASP_Angular/DatingApp/API/bin/Debug/net6.0/Data/UserSeedData.json
 /Users/sergejkorolev/Documents/ASP_Angular/DatingApp/API/bin/Debug/net6.0/AutoMapper.dll
 /Users/sergejkorolev/Documents/ASP_Angular/DatingApp/API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/sergejkorolev/Documents/ASP_Angular/DatingApp/API/bin/Debug/net6.0/CloudinaryDotNet.dll
+/Users/sergejkorolev/Documents/ASP_Angular/DatingApp/API/bin/Debug/net6.0/Newtonsoft.Json.dll

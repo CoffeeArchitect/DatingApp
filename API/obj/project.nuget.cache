@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ieuPxA4VGfcSUYZXWO8nnO9s+Q8gfYOIPxOMn+XancQZI3+5xTjg+8we94cNJVNnE3ruEKzv0jdrmnFHtH6s1w==",
+  "dgSpecHash": "uCKiCQ/fRhPdTLNNhhSG9SPvUotxDx8S8cky86nhb0g6kVVIqArGVFcCZlcJtftDcdKT/FhiV3671GMPwBiHCw==",
   "success": true,
   "projectFilePath": "/Users/sergejkorolev/Documents/ASP_Angular/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/sergejkorolev/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "/Users/sergejkorolev/.nuget/packages/cloudinarydotnet/1.20.0/cloudinarydotnet.1.20.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.9/microsoft.aspnetcore.authentication.jwtbearer.6.0.9.nupkg.sha512",
+    "/Users/sergejkorolev/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "/Users/sergejkorolev/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/sergejkorolev/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
@@ -33,6 +37,7 @@
     "/Users/sergejkorolev/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/sergejkorolev/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/npgsql/6.0.0/npgsql.6.0.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.0/npgsql.entityframeworkcore.postgresql.6.0.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
@@ -46,6 +51,7 @@
     "/Users/sergejkorolev/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/Users/sergejkorolev/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
     "/Users/sergejkorolev/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
